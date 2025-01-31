@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingImage(
-                        name = "Felipe",
+                        name = "Elizabeth",
                         from = "Marco",
 
 
@@ -95,7 +95,7 @@ fun GreetingImage(name: String, from: String, modifier: Modifier = Modifier) {
 @Composable
 fun BirthdayCardPreview() {
     TarjetaDeCumpleanosTheme {
-        GreetingText("Felipe","Marco")
+        GreetingText("Elizabeth","Marco")
 
     }
 }
@@ -104,6 +104,6 @@ fun BirthdayCardPreview() {
 @Composable
 fun GreetingImagePreview() {
     TarjetaDeCumpleanosTheme {
-        GreetingImage("Felipe","Marco")
+        GreetingImage("Elizabeth","Marco")
     }
 }
